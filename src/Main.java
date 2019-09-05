@@ -4,11 +4,5 @@ public class Main {
 
         Runner r = new Runner();
         r.start();
-        try {
-            r.join();
-        }catch (Exception e){
-
-        }
-        System.out.println("The end");
     }
 }
